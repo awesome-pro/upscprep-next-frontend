@@ -40,9 +40,12 @@ export function MobileNav() {
         </SheetHeader>
         <div className="p-4">
           <NavItems className="flex flex-col gap-3" isMobile />
-          <div className="mt-6">
-            <Button className="w-full" asChild onClick={close}>
-              <Link href="/get-started">Get Started</Link>
+          <div className="mt-6 space-y-3">
+            <Button variant="outline" className="w-full rounded-full border-primary text-primary" onClick={close}>
+              <Link href="/auth/sign-in" className="rounded-full">Sign In</Link>
+            </Button>
+            <Button className="w-full bg-primary hover:bg-primary/90 rounded-full" asChild onClick={close}>
+              <Link href="/auth/sign-up" className="rounded-full">Start Free Trial</Link>
             </Button>
           </div>
         </div>

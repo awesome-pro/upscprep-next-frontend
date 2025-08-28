@@ -2,6 +2,7 @@ import { AuthProvider } from '@/hooks/use-auth';
 import { CourseEnrollmentsProvider } from '@/hooks/use-course-enrollments';
 import { TestSeriesEnrollmentsProvider } from '@/hooks/use-test-series-enrollments';
 import { TanstackQueryProvider } from '@/providers/tanstack-query';
+import { ThemeProvider } from '@/providers/theme';
 import React from 'react'
 
 function ProtectedLayout(
@@ -10,6 +11,12 @@ function ProtectedLayout(
       }>
 ) {
   return (
+    <ThemeProvider
+      attribute="class"
+      defaultTheme="system"
+      enableSystem
+      disableTransitionOnChange
+    >
     <AuthProvider>
         <TanstackQueryProvider>
             <CourseEnrollmentsProvider>
@@ -19,6 +26,7 @@ function ProtectedLayout(
             </CourseEnrollmentsProvider>
         </TanstackQueryProvider>
     </AuthProvider>
+    </ThemeProvider>
   )
 }
 

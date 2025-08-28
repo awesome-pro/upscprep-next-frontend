@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/providers/theme";
 import { Toaster } from "@/components/ui/sonner";
 import { NavigationProgressProvider } from "@/providers/navigation-progress";
 
@@ -26,21 +25,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth`}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
           <NavigationProgressProvider>
             {children}
             <Toaster />
           </NavigationProgressProvider>
-        </ThemeProvider>
       </body>
     </html>
   );
