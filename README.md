@@ -2,12 +2,12 @@
 ## [**Live Link 🔗**](https://upscprep.abhinandan.pro)
 ## [**Backend Swagger Docs 🔗**](https://prepbackend.abhinandan.pro/api/docs)
 
-<img width="480" height="270" alt="Screenshot 2025-09-11 at 7 44 59 AM" src="https://github.com/user-attachments/assets/33f8d6b3-4e86-4153-8700-53c0d1a3e42d" />
-<img width="480" height="270" alt="Screenshot 2025-09-11 at 7 55 38 AM 1" src="https://github.com/user-attachments/assets/194e6044-3f14-4bda-8240-244edc86e325" />
-<img width="480" height="270" alt="Screenshot 2025-09-11 at 7 55 38 AM" src="https://github.com/user-attachments/assets/5abd5806-feb7-45a6-9454-e384f28531e6" />
-<img width="480" height="270" alt="upsc-1" src="https://github.com/user-attachments/assets/24ff9c0e-5bcb-437e-a37e-fab70475db79" />
-<img width="480" height="270" alt="upsc-2" src="https://github.com/user-attachments/assets/c44bd98a-0531-46ac-a61f-9b628d0cbdf6" />
-<img width="480" height="270" alt="upsc-0" src="https://github.com/user-attachments/assets/f47ebbef-c1c0-4fce-8a4f-6348c11ce48b" />
+<img width="320" height="180" alt="Screenshot 2025-09-11 at 7 44 59 AM" src="https://github.com/user-attachments/assets/33f8d6b3-4e86-4153-8700-53c0d1a3e42d" />
+<img width="320" height="180" alt="Screenshot 2025-09-11 at 7 55 38 AM 1" src="https://github.com/user-attachments/assets/194e6044-3f14-4bda-8240-244edc86e325" />
+<img width="320" height="180" alt="Screenshot 2025-09-11 at 7 55 38 AM" src="https://github.com/user-attachments/assets/5abd5806-feb7-45a6-9454-e384f28531e6" />
+<img width="320" height="180" alt="upsc-1" src="https://github.com/user-attachments/assets/24ff9c0e-5bcb-437e-a37e-fab70475db79" />
+<img width="320" height="180" alt="upsc-2" src="https://github.com/user-attachments/assets/c44bd98a-0531-46ac-a61f-9b628d0cbdf6" />
+<img width="320" height="180" alt="upsc-0" src="https://github.com/user-attachments/assets/f47ebbef-c1c0-4fce-8a4f-6348c11ce48b" />
 
 <br />
 <br />
