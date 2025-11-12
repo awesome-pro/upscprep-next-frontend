@@ -44,11 +44,6 @@ async function handleRequest(request: NextRequest): Promise<NextResponse> {
     return NextResponse.json({ isSignedIn: true }, { status: 200 });
   }
 
-  if (!refreshToken) {
-    console.log('No refresh token found');
-    return handleAuthError('No refresh token found', isApiRequest ? 'NO_REFRESH_TOKEN' : undefined, returnUrl);
-  }
-
   console.log('Only refreshToken present, attempting to refresh session');
   try {
     const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/auth/refresh`, {
